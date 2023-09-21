@@ -7,5 +7,6 @@ fn main() {
 
     // Tuple operation
     println!("Name: {}", rand_tuple2.0);
+    println!("Name: {:?}", rand_tuple.0);
     println!("Lucky no : {}", rand_tuple2.1);
 }
